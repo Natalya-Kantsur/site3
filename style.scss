@@ -1,0 +1,136 @@
+@import 'null';
+@import 'base';
+@import 'header';
+@import 'content';
+
+body {
+    font-size: 10px;
+    font-family: $font-base;
+    background-color: $color-black;
+    color: $color-white;
+}
+
+@media (min-width: 1920px) {
+    .teach__heading--descktop {
+        display: block;
+    }
+}
+
+@media (max-width: 1752px) {
+    .track__text{
+        padding: 0px 0px;
+    }
+    .teach__date {
+        left: 180px;
+    }
+    .teach__item {
+        &:last-child {
+            display: flex;
+            flex-direction: column;
+        }
+        &:last-child .teach__all{
+            margin-top: 40px;
+        }
+    }
+    .teach__photo__block {
+        flex-direction: column-reverse;
+    }
+    .teach__icon {
+        margin-top: 0px;
+    }
+    .teach__photo {
+        padding: 0px 10px;
+    }
+    .info__slogan {
+        margin-top: 70px;
+        padding-right: 10px;
+    }
+}
+@media (min-width: 1025px) {
+.header__info__item{
+    &:nth-child(2) {
+        margin-top: 220px;
+    }
+}
+}
+@media (max-width: 1024px) {
+    body {
+        font-size: 5px;
+    }
+    .header__content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .header__info {
+        font-size: 2em;
+    }
+    .header__heading  {
+        top: 120px;
+        left: 25%;
+    }
+    .header__image {
+        margin-top: 150px;
+        img {
+            max-width: 80%;
+        }
+    }
+    .header .header__content .header__button{
+        order: -1;
+        padding-bottom: 25px;
+    }
+    .content__track {
+        flex-direction: column;
+    }
+    .header__online {
+        margin: 0px;
+        padding-bottom: 20px;
+    }
+    .nav {
+        font-size: 2em;
+    }
+    .info__button {
+        font-size: 2em;
+    }
+    
+    .teach__info {
+        align-items: start;
+        flex-direction: column;
+    }
+    .button__show {
+        padding-right: 39px;
+    }
+}
+
+@media (max-width: 415px) {
+.track__item {
+    padding-bottom: 30px;
+}
+.header .header__content {
+    margin: 0px;
+}
+.header .header__content .header__info .info__item--heading {
+    font-size: 6.5em;
+}
+.header__online a {
+padding: 0px;
+font-size: 5em;
+}
+.header__heading{
+font-size: 0.7em;
+left: 12.5%;
+}
+.content__text--big {
+    font-size: 10em;
+}
+.teach__date {
+    span {
+    font-size: 3.5em;}
+}
+.button__item {
+    padding: 0px;
+}
+.content__block {
+    display: block;
+    padding: 30px;
+}
+}

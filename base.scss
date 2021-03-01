@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Bison-Bold';
+    src: local('Bison-Bold'), local('Bison-Bold'),
+        url('Bison-Bold-Free/Bison-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  };
+
+  $font-base: 'Jost', sans-serif;
+  $font-second: 'Bison-Bold';
+
+  $color-white: #ffffff;
+  $color-green: #73F9BC;
+  $color-black: #171716;
+
+
