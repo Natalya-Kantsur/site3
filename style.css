@@ -73,12 +73,12 @@ h1, h2, h3, h4, h5, h6 {
 
 @font-face {
   font-family: "Bison-Bold";
-  src: local("Bison-Bold"), local("Bison-Bold"), url("Bison-Bold-Free/Bison-Bold.ttf") format("truetype");
+  src: local("Bison-Bold"), local("Bison-Bold"), url("Bison-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
 .header {
-  background-image: linear-gradient(180deg, rgba(23, 23, 22, 0) 57.87%, #171716 79.58%), url(img/back.jpg);
+  background-image: linear-gradient(180deg, rgba(23, 23, 22, 0) 57.87%, #171716 79.58%), url(back.jpg);
 }
 .header .navigation {
   background-color: #171716;
